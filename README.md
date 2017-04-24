@@ -1,1 +1,2 @@
-"# Tether-Capstone-Application" 
+# IFT402
+Capstone Project
