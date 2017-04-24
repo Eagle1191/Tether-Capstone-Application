@@ -44,7 +44,7 @@ ALLOWED_HOSTS = ["*"
 # Application definition
 
 INSTALLED_APPS = [
-    'tether.apps.TetherConfig',
+    'tether',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
