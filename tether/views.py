@@ -1,28 +1,22 @@
 from tether.forms import UserForm, UserProfileForm, LeagueForm,  MatchPlayersForm, PlayerDataForm
 from django.http import HttpResponse, HttpResponseRedirect, Http404
-from django.shortcuts import render, redirect, render_to_response
-from django.contrib.auth import authenticate, login, get_user, logout
-from tether.models import League, UserProfile1, Matches, LeagueMembership
+from django.shortcuts import redirect
+from django.contrib.auth import authenticate, login
+from tether.models import League, Matches, LeagueMembership
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.contrib.auth import logout
 from django.db import connection
 from nested_lookup import nested_lookup
-from django.contrib import messages
 from django.db.models import Count, F
 import dota2api
 from django_tables2 import RequestConfig
 from tether.tables import LeagueTable, ResultsTable, MatchesTable
-from django.views.generic.edit import CreateView
 from django.db.models import Q
 from django.shortcuts import render
 import tether.models
 import tether.tables
-# from django.urls import reverse  # unknown
 from django.core.exceptions import ObjectDoesNotExist
-
-
-# from django.urls import NoReverseMatch
 
 
 def index(request):

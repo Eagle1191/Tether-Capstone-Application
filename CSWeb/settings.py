@@ -35,7 +35,7 @@ SECRET_KEY = '_=-t68h)3x-szn5)y^h1%ld!y#f_f^$ika!$chivn3(ypuy%38'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["tether-app.herokuapp.com"]
 
 # Application definition
 
@@ -145,7 +145,7 @@ STATICFILES_DIRS = (
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 # Logging settings
 LOGGING = {
