@@ -609,7 +609,7 @@ def profile(request):
     if request.user.is_authenticated():
 
         user = User.objects.get(pk=request.user.id)
-        leagues = League.objects.filter(leaguemembership__profile=user)
+        leagues = League.objects.filter(leaguemembership__profile=user.userprofile1)
 
         sid = request.user.userprofile1.steam_id  # get logged in user's steam ID
 

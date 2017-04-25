@@ -82,9 +82,9 @@
 									</tr>
                                     <tr>
                                         <td class="locl"><strong>Leagues</strong></td>
-                                        {% for league in leagues %}
-                                            <td>{{ league.league_name }}</td>
-                                        {% endfor %}
+                                        <td>{% for league in leagues %}
+                                            {{ league.league_name }}
+                                        {% endfor %}</td>
                                     </tr>
                                     {% comment %}
 									<tr>
