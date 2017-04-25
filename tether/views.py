@@ -1,6 +1,6 @@
-from tether.forms import UserForm, UserProfileForm, LeagueForm,  MatchPlayersForm, PlayerDataForm
+from tether.forms import UserForm, UserProfileForm, LeagueForm, MatchPlayersForm, PlayerDataForm
 from django.http import HttpResponse, HttpResponseRedirect, Http404
-from django.shortcuts import redirect
+from django.shortcuts import redirect, render_to_response
 from django.contrib.auth import authenticate, login
 from tether.models import League, Matches, LeagueMembership
 from django.contrib.auth.decorators import login_required
@@ -17,6 +17,7 @@ from django.shortcuts import render
 import tether.models
 import tether.tables
 from django.core.exceptions import ObjectDoesNotExist
+from django.template import RequestContext
 
 
 def index(request):
@@ -116,11 +117,11 @@ def user_login(request):
 
     return redirect('index')
 
+
 def handler404(request):
-    return render(request, 'tether/404.html', {}, status=404)
-    #response = render_to_response('tether/templates/404.html', {}, )
-    #response.status_code = 404
-    #return response
+    response = render_to_response('tether/404.html', {}, )
+    response.status_code = 404
+    return response
 
 
 def user_logout(request):
@@ -212,8 +213,8 @@ def matches(request, match_id):
     if league.owner == user:
         context_dict['owner'] = True
 
-    #if user.userprofile1.leagues.get(league_name=league.league_name).DoesNotExist:
-        #return HttpResponse("You are not a part of this league.")
+        # if user.userprofile1.leagues.get(league_name=league.league_name).DoesNotExist:
+        # return HttpResponse("You are not a part of this league.")
 
     if request.method == 'POST':
         if not match.locked:
@@ -579,7 +580,6 @@ def join_public(request):  # view for users to look for leagues
 
 
 @login_required(login_url='/tether/login/')  # login decorator that requires login if user is not
-
 def add_league(request):  # view for users to create leagues
     if request.method == 'POST':  # if it a post request
         form = LeagueForm(request.POST)  # give the django form the user's input
@@ -607,9 +607,9 @@ def add_league(request):  # view for users to create leagues
 def profile(request):
     if request.user.is_authenticated():
 
-        sid = request.user.userprofile1.steam_id # get logged in user's steam ID
+        sid = request.user.userprofile1.steam_id  # get logged in user's steam ID
 
-        api = dota2api.Initialise("BFF23F667B3B31FD01663D230DF11C25") # API Key
+        api = dota2api.Initialise("BFF23F667B3B31FD01663D230DF11C25")  # API Key
 
         playerform = MatchPlayersForm(request.POST)
         '''
@@ -639,6 +639,7 @@ def profile(request):
                     print(mat_id)
         return mat_id, mid  # mat_id and mid are passed to the get match players function.
         '''
+
         # -----------------------------------------------------------------------------------------------
 
         # --- New recent matches attempt ---#
@@ -683,28 +684,29 @@ def profile(request):
                     sid = request.user.userprofile1.steam_id  # Get current user's steam ID.
                     api = dota2api.Initialise("BFF23F667B3B31FD01663D230DF11C25")  # Initialize with our API key.
                     hist = api.get_match_history(account_id=sid)  # Pass the steam ID to the API,
-                                                                  # It returns the user's recent matches.
+                    # It returns the user's recent matches.
                     match_list2 = hist  # Another var
 
                     ids = nested_lookup('match_id', match_list2)  # return in list all ids and dates.
                     s_time = nested_lookup('start_time', match_list2)
 
                     match_list = dict(zip(s_time, ids))  # zip ids and dates into dict.
-                    num_ids = range(4)                   # This is an old dictionary object used for reference during dev.
+                    num_ids = range(4)  # This is an old dictionary object used for reference during dev.
 
-                    num_matches2 = range(5)              # By default the API will return 100 match IDs. That's too many.
+                    num_matches2 = range(5)  # By default the API will return 100 match IDs. That's too many.
                     match_incre2 = []
 
                     for i in num_matches2:  # This will number the matches 0 - 100.
                         match_incre2.append('id_match' + str(i))
                     match_ids = ids[:5]  # We will only take the 5 most recent matches from a player.
-                    recent_matches2 = dict(zip(match_incre2, match_ids))  # Zipping our numbering and match IDs into a new dict.
+                    recent_matches2 = dict(
+                        zip(match_incre2, match_ids))  # Zipping our numbering and match IDs into a new dict.
 
                     matches = {str(k): str(v) for k, v in recent_matches2.items()}  # Convert both to str.
 
                     print(matches)
                     new_entry = tether.models.NewRecentMatches1(**matches)  # Unpack dictionary to the database model.
-                    new_entry.save()                                        # Save what was added.
+                    new_entry.save()  # Save what was added.
 
                     # The following will populate a ManyToMany 'through' table.
                     prof_id = tether.models.UserProfile1.objects.get(steam_id=sid)  # Get current user's profile ID.
@@ -732,13 +734,14 @@ def profile(request):
                 #  Future Tweaking; Submit form with AJAX, avoid reloading page
                 #  OR use JS to retail scroll position. (QOL)
                 if request.method == 'POST':  # IF form was submitted, evaluate these and assign vars:
-                    #playerform = MatchPlayersForm(request.POST)  # Initialize the form
+                    # playerform = MatchPlayersForm(request.POST)  # Initialize the form
                     print('request is get, next condition?')
 
                     if playerform.is_valid():  # Validate form, and assign variable based on selection.
 
                         if playerform.cleaned_data["Players"] == 'MATCH0':
-                            mid = tether.models.NewRecentMatches1.objects.values('id_match0').distinct()  # Reserved Variable
+                            mid = tether.models.NewRecentMatches1.objects.values(
+                                'id_match0').distinct()  # Reserved Variable
                             mat_id_u = tether.models.NewRecentMatches1.objects.filter(
                                 userprofile1__steam_id=sid).values_list(
                                 'id_match0').distinct()  # Grab to valid Match ID that will be passed to get_players.
@@ -794,13 +797,13 @@ def profile(request):
                             mat_id_u = tether.models.NewRecentMatches1.objects.filter(
                                 userprofile1__steam_id=sid).values_list(
                                 'id_match4').distinct()
-                            #playerform = MatchPlayersForm(request.POST)
+                            # playerform = MatchPlayersForm(request.POST)
                             print(mat_id_u)
 
                             a = mat_id_u
                             mat_id_u = " ".join([x[0] for x in a])
                             print(mat_id_u)
-                            #return mat_id_u
+                            # return mat_id_u
 
                 else:
                     # If the players form was not submitted:
@@ -941,9 +944,7 @@ def profile(request):
                     with connection.cursor() as cursor:
                         cursor.execute("DELETE FROM match_data WHERE id >= 1;")
 
-
                 return p_entry
-
 
             def get_all_data(self):
                 plrs_match_data = {}
@@ -1095,8 +1096,8 @@ def profile(request):
                                 match_data_entry = tether.models.MatchData(**plrs_match_data)
                                 match_data_entry.save()
                     except IndexError:
-                        #return HttpResponse(status=500)
-                        raise Http404   #("This player does not have the expose public matchmaking option enabled.")
+                        # return HttpResponse(status=500)
+                        raise Http404  # ("This player does not have the expose public matchmaking option enabled.")
 
                 else:
 
@@ -1121,7 +1122,7 @@ def profile(request):
                     # get_all_data()
 
 
-                # ----- Split common GD -----#
+                    # ----- Split common GD -----#
 
             def get_common_d(self):
 
@@ -1131,10 +1132,11 @@ def profile(request):
                 # In the future, simply add the Data Object specified by the profile form and pass it to this function.
 
                 mid = tether.models.NewRecentMatches1.objects.values('id_match0').distinct()
-                mat_id_u = tether.models.NewRecentMatches1.objects.filter(userprofile1__steam_id=sid).values_list('id_match0').distinct()
+                mat_id_u = tether.models.NewRecentMatches1.objects.filter(userprofile1__steam_id=sid).values_list(
+                    'id_match0').distinct()
 
                 print(mat_id_u)
-                #print(mid)
+                # print(mid)
 
                 a = mat_id_u
                 mat_id_u = " ".join([x[0] for x in a])
@@ -1174,13 +1176,13 @@ def profile(request):
                 print(mat_id)
 
                 ini2 = api.get_match_details(  # Pulling match details from Dota 2 API.
-                    match_id=mat_id_u)   # copying the match_ini dictionary does not work, for unknown reason.
+                    match_id=mat_id_u)  # copying the match_ini dictionary does not work, for unknown reason.
                 wanted2 = set(ini2) - {'match_id', 'leagueid', 'tower_status_radiant', 'first_blood_time',
                                        'positive_votes', 'radiant_win', 'tower_status_dire', 'dire_score',
                                        'pre_game_duration', 'flags', 'cluster_name', 'radiant_score',
                                        'barracks_status_radiant', 'match_seq_num', 'barracks_status_dire',
                                        'negative_votes'}
-                dota2gd = ini2          # Specifying which values to keep.
+                dota2gd = ini2  # Specifying which values to keep.
                 for unwanted_key in wanted2:
                     del dota2gd[unwanted_key]  # Deleting unwanted keys.
 
@@ -1196,12 +1198,12 @@ def profile(request):
 
         r = PlayersAndData()
         r.get_profile_match_hist()
-        #r.filter()
+        # r.filter()
         r.get_match_players()
         r.get_all_data()
-        #r.get_common_d()
-        #r.get_dota_d()
-    # Removing duplicate rows:
+        # r.get_common_d()
+        # r.get_dota_d()
+        # Removing duplicate rows:
         for row in tether.models.NewRecentMatches1.objects.all():
             if tether.models.NewRecentMatches1.objects.filter(userprofile1__steam_id=sid).count() > 1:
                 row.delete()
@@ -1210,10 +1212,9 @@ def profile(request):
             if tether.models.MatchPlayers.objects.filter(newrecentmatches1__userprofile1__steam_id=sid).count() > 1:
                 row.delete()
 
-            #for row in tether.models.MatchData.objects.all():
-                #if tether.models.MatchData.objects.raw('''SELECT * from match_data WHERE id >= 333''').count() > 1:
-                    #row.delete()
-
+                # for row in tether.models.MatchData.objects.all():
+                # if tether.models.MatchData.objects.raw('''SELECT * from match_data WHERE id >= 333''').count() > 1:
+                # row.delete()
 
     # --- end ---#
     # ------------------------------------------------------------------------------------------------------------
@@ -1222,7 +1223,8 @@ def profile(request):
         tether.models.MatchData.objects.raw('''SELECT * from match_data WHERE id >= 1'''))
     playertable = tether.tables.PlayerTable(
         tether.models.MatchPlayers.objects.filter(newrecentmatches1__userprofile1__steam_id=sid), prefix='1-')
-    table = tether.tables.MatchTable(tether.models.NewRecentMatches1.objects.filter(userprofile1__steam_id=sid), prefix='2-')
+    table = tether.tables.MatchTable(tether.models.NewRecentMatches1.objects.filter(userprofile1__steam_id=sid),
+                                     prefix='2-')
     RequestConfig(request).configure(table)
     RequestConfig(request).configure(playertable)
     # Manual / force id value
@@ -1247,7 +1249,6 @@ def profile(request):
                                                         'playerform': playerform,
                                                         'dataform': PlayerDataForm,
                                                         })
-
 
 
 def matchplayers(request):
@@ -1293,8 +1294,8 @@ def matchplayers(request):
 def intro(request):
     return render(request, "tether/intro.html")
 
-class AjaxTemplateMixin(object):
 
+class AjaxTemplateMixin(object):
     def dispatch(self, request, *args, **kwargs):
         if not hasattr(self, 'ajax_template_name'):
             split = self.template_name.split('.html')
@@ -1302,6 +1303,5 @@ class AjaxTemplateMixin(object):
             split.append('.html')
             self.ajax_template_name = ''.join(split)
         if request.is_ajax():
-             self.template_name = self.ajax_template_name
+            self.template_name = self.ajax_template_name
         return super(AjaxTemplateMixin, self).dispatch(request, *args, **kwargs)
-
