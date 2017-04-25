@@ -2,425 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d6c251c-c549-484d-8ca0-6e5d955d3fb8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/base.ba3dc2f88fc5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/base.ba3dc2f88fc5.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/base.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/changelists.b1b060f73d37.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/changelists.b1b060f73d37.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/changelists.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/changelists.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/dashboard.4898e2e9983d.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/dashboard.4898e2e9983d.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/dashboard.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/fonts.cc6140298ba7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/fonts.cc6140298ba7.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/fonts.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/forms.70b858e61281.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/forms.70b858e61281.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/forms.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/login.a846c0e2ef65.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/login.a846c0e2ef65.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/login.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/rtl.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/rtl.e024aaf6df25.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/rtl.e024aaf6df25.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/widgets.a7251c097987.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/widgets.a7251c097987.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/widgets.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/css/widgets.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/LICENSE.d273d63619c9.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/LICENSE.d273d63619c9.txt.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/LICENSE.txt.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/README.2c3d0bcdede2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/Roboto-Bold-webfont.2ad99072841e.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/Roboto-Light-webfont.b446c2399bb6.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/Roboto-Regular-webfont.ec39515ae8c6.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/LICENSE.2c54f4e1ca1c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/LICENSE.2c54f4e1ca1c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/LICENSE.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/README.837277fa1908.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/README.837277fa1908.txt.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/README.txt.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/calendar-icons.39b290681a8b.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/calendar-icons.39b290681a8b.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/calendar-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/calendar-icons.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/gis/move_vertex_off.7a23bf31ef8a.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/gis/move_vertex_off.7a23bf31ef8a.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/gis/move_vertex_off.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/gis/move_vertex_off.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/gis/move_vertex_on.0047eba25b67.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/gis/move_vertex_on.0047eba25b67.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/gis/move_vertex_on.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/gis/move_vertex_on.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-addlink.d519b3bab011.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-addlink.d519b3bab011.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-addlink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-addlink.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-alert.034cc7d8a67f.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-alert.034cc7d8a67f.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-alert.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-alert.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-calendar.ac7aea671bea.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-calendar.ac7aea671bea.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-calendar.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-changelink.18d2fd706348.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-changelink.18d2fd706348.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-changelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-changelink.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-clock.e1d4dfac3f2b.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-clock.e1d4dfac3f2b.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-clock.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-deletelink.564ef9dc3854.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-deletelink.564ef9dc3854.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-deletelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-deletelink.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-no.439e821418cd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-no.439e821418cd.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-no.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-no.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-unknown-alt.81536e128bb6.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-unknown-alt.81536e128bb6.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-unknown-alt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-unknown-alt.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-unknown.a18cb4398978.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-unknown.a18cb4398978.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-unknown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-unknown.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-yes.d2f9f035226a.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-yes.d2f9f035226a.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-yes.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/icon-yes.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/inline-delete.fec1b761f254.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/inline-delete.fec1b761f254.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/inline-delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/inline-delete.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/search.7cf54ff789c6.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/search.7cf54ff789c6.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/search.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/selector-icons.b4555096cea2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/selector-icons.b4555096cea2.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/selector-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/selector-icons.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/sorting-icons.3a097b59f104.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/sorting-icons.3a097b59f104.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/sorting-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/sorting-icons.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/tooltag-add.e59d620a9742.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/tooltag-add.e59d620a9742.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/tooltag-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/tooltag-add.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/tooltag-arrowright.bbfb788a849e.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/tooltag-arrowright.bbfb788a849e.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/tooltag-arrowright.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/img/tooltag-arrowright.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/SelectBox.b49f008d186b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/SelectBox.b49f008d186b.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/SelectBox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/SelectBox.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/SelectFilter2.17009b6d4428.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/SelectFilter2.17009b6d4428.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/SelectFilter2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/SelectFilter2.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/actions.32861b6cbdf9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/actions.32861b6cbdf9.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/actions.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/actions.min.f51f04edab28.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/actions.min.f51f04edab28.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/actions.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/actions.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/admin/DateTimeShortcuts.1536fb6bea1d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/admin/DateTimeShortcuts.1536fb6bea1d.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/admin/DateTimeShortcuts.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/admin/RelatedObjectLookups.183db436487a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/admin/RelatedObjectLookups.183db436487a.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/admin/RelatedObjectLookups.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/calendar.9ac94d055fbd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/calendar.9ac94d055fbd.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/calendar.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/cancel.1d69cba4b4bf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/cancel.1d69cba4b4bf.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/cancel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/cancel.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/change_form.d224f77c6b61.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/change_form.d224f77c6b61.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/change_form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/change_form.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/collapse.17d715df2104.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/collapse.17d715df2104.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/collapse.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/collapse.min.dc930adb2821.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/collapse.min.dc930adb2821.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/collapse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/collapse.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/core.fd861d43f0f5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/core.fd861d43f0f5.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/core.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/inlines.17981b4df24a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/inlines.17981b4df24a.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/inlines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/inlines.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/inlines.min.8ef8b2379896.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/inlines.min.8ef8b2379896.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/inlines.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/inlines.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/jquery.init.95b62fa19378.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/jquery.init.95b62fa19378.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/jquery.init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/jquery.init.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/popup_response.6ce3197f8fc8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/popup_response.6ce3197f8fc8.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/popup_response.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/popup_response.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate.ff9208865444.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate.ff9208865444.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate.min.f4057ebb9b62.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate.min.f4057ebb9b62.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate_init.0d3b53c37074.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate_init.0d3b53c37074.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate_init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/prepopulate_init.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/timeparse.51258861a46a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/timeparse.51258861a46a.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/timeparse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/timeparse.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/urlify.411bc3bb651c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/urlify.411bc3bb651c.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/urlify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/urlify.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.a158210a2737.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.a158210a2737.txt.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.txt.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/jquery.aacc43d6f308.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/jquery.aacc43d6f308.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/jquery.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/jquery.min.33cabfa15c10.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/jquery.min.33cabfa15c10.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/jquery/jquery.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.d64cecf4f157.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.d64cecf4f157.txt.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/xregexp.1865b1cf5085.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/xregexp.1865b1cf5085.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/xregexp.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/admin/js/vendor/xregexp/xregexp.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.5e55d9931206.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.5e55d9931206.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.css.d6cc0a3c7532.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.css.d6cc0a3c7532.map.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.css.map.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.min.9f0b6c56b43e.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.min.9f0b6c56b43e.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.min.css.5f587b800215.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.min.css.5f587b800215.map.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.min.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap-theme.min.css.map.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.794f8177af96.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.794f8177af96.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.css.c7ffd8c7a285.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.css.c7ffd8c7a285.map.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.css.map.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.min.5057f321f0dc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.min.5057f321f0dc.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.min.css.35b79ebe0b78.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.min.css.35b79ebe0b78.map.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.min.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/bootstrap.min.css.map.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/custom.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/custom.edd350d0b63b.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/custom.edd350d0b63b.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/font-awesome.4bb3dd721c46.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/font-awesome.4bb3dd721c46.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/font-awesome.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/font-awesome.min.a0e784c4ca94.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/font-awesome.min.a0e784c4ca94.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/font-awesome.min.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/hovers.481066508176.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/hovers.481066508176.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/hovers.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/hovers.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/style.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/style.f2de9ac85e90.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/css/style.f2de9ac85e90.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/bootstrap.6ee37ef66403.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/bootstrap.6ee37ef66403.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/bootstrap.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/css/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/css/screen.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/css/screen.ffc14a57f874.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/css/screen.ffc14a57f874.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/arrow-active-down.ca0c866de58c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/arrow-active-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/arrow-active-up.7891d6f2ce48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/arrow-active-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/arrow-inactive-down.d9adf4eaf059.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/arrow-inactive-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/arrow-inactive-up.2898c124b76b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/arrow-inactive-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/false.2888642640a3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/false.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/header-bg.876271800e64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/header-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/missing.6a74c4fd7a4f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/missing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/pagination-bg.dc7bc05b7ef1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/pagination-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/true.0596085e212f.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/django_tables2/themes/paleblue/img/true.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/FontAwesome.0d2717cd5d85.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/FontAwesome.0d2717cd5d85.otf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/FontAwesome.otf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.674f50d287a8.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.674f50d287a8.eot.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.912ec66d7572.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.912ec66d7572.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.af7ae505a9ee.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.b06871f281fe.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.b06871f281fe.ttf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.eot.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.fee66e712a8a.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.ttf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.448c34a56d69.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.89889688147b.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.89889688147b.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.e18bbf611f2a.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.e18bbf611f2a.ttf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.f4769f9bdb74.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.fa2772327f55.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.ttf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/background.ccad1fe06853.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/background3.43caa8ffacb3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/background3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/community.f0922a0390b4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/community.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/create.73d8db81f336.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/create.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/cs-go-1.00404f3f2ee0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/cs-go-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/cs-go-2.76953bc0a2d8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/cs-go-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/cs-go-3.bb6eca1c9fbd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/cs-go-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/dota5.419e25246fe0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/dota5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/dota_1.4788f63f9425.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/dota_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/dota_2.69e0ef17bf97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/dota_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/dota_3.bb6eca1c9fbd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/dota_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/image.0fd9a6ffb8a3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league1.aed012a2f237.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league2.d72379c6b235.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league3.c45f0578d5f2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league4.b5c5a92007b5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league5.e8987917da92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/league5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/logo.86cae473bbab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/logo.af5c6e91d3f6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/profile.7b5f87192a7b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/profile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/profile2.ada5aea03b9e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/profile2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/tether_1.181614de5940.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/tether_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/tether_logo.7e2ad4d51d9d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/images/tether_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap.24276f268f56.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap.24276f268f56.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap.min.04c84852e993.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap.min.04c84852e993.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap2.min.04c84852e993.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap2.min.04c84852e993.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/bootstrap2.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/custom.929d50674588.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/custom.929d50674588.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/custom.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/npm.9ec191bedba9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/npm.9ec191bedba9.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/npm.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/tether-ajax.0cbbe49b75f1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/tether-ajax.0cbbe49b75f1.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/tether-ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/scripts/tether-ajax.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSWeb/staticfiles/staticfiles.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSWeb/settings.py" afterPath="$PROJECT_DIR$/CSWeb/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/tether/static/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/tether/static/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/tether/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/tether/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/css/custom.css" afterPath="$PROJECT_DIR$/tether/static/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/css/font-awesome.css" afterPath="$PROJECT_DIR$/tether/static/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/tether/static/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/css/hovers.css" afterPath="$PROJECT_DIR$/tether/static/css/hovers.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/css/style.css" afterPath="$PROJECT_DIR$/tether/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/scripts/bootstrap.js" afterPath="$PROJECT_DIR$/tether/static/scripts/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/scripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/tether/static/scripts/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/scripts/bootstrap2.min.js" afterPath="$PROJECT_DIR$/tether/static/scripts/bootstrap2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/scripts/custom.js" afterPath="$PROJECT_DIR$/tether/static/scripts/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/scripts/npm.js" afterPath="$PROJECT_DIR$/tether/static/scripts/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/static/scripts/tether-ajax.js" afterPath="$PROJECT_DIR$/tether/static/scripts/tether-ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/create.html" afterPath="$PROJECT_DIR$/tether/templates/tether/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/join_public.html" afterPath="$PROJECT_DIR$/tether/templates/tether/join_public.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -441,114 +41,18 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSWeb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            <state relative-caret-position="352">
+              <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/static/css/bootstrap.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tether/templates/tether/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="6681" column="31" lean-forward="true" selection-start-line="6681" selection-start-column="31" selection-end-line="6681" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/static/css/font-awesome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSWeb/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="matches.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/matches.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3674">
-              <caret line="167" column="38" lean-forward="false" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSWeb/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2728">
-              <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#97#0" expanded="true" />
-                <marker date="1493080472227" expanded="true" signature="40351:40419" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="40459:40527" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="40568:40636" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="40676:40744" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="40784:40852" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="40892:40960" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="41000:41068" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="41108:41176" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="41216:41284" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="41324:41392" ph="UPDATE match... " />
-                <marker date="1493080472227" expanded="true" signature="41734:41770" ph="DELETE FROM " />
-                <marker date="1493080472227" expanded="true" signature="56744:56782" ph="SELECT * fro... match_data" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="-44">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -587,8 +91,9 @@
         <option value="$PROJECT_DIR$/tether/urls.py" />
         <option value="$PROJECT_DIR$/CSWeb/urls.py" />
         <option value="$PROJECT_DIR$/CSWeb/staticfiles/init.txt" />
-        <option value="$PROJECT_DIR$/CSWeb/settings.py" />
         <option value="$PROJECT_DIR$/tether/views.py" />
+        <option value="$PROJECT_DIR$/tether/templates/tether/create.html" />
+        <option value="$PROJECT_DIR$/CSWeb/settings.py" />
       </list>
     </option>
   </component>
@@ -599,8 +104,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="305" />
-    <option name="y" value="10" />
+    <option name="x" value="254" />
     <option name="width" value="1646" />
     <option name="height" value="942" />
   </component>
@@ -734,6 +238,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\tether\static" />
+      <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\CSWeb\staticfiles" />
       <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\tether\templates\tether" />
       <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\tether\static\fonts" />
     </key>
@@ -1017,10 +523,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="305" y="10" width="1646" height="942" extended-state="1" />
-    <editor active="false" />
+    <frame x="254" y="0" width="1646" height="942" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30127388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30127388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1062,6 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,14 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3674">
           <caret line="167" column="38" lean-forward="false" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1230,10 +729,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tether/templates/tether/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tether/templates/tether/add_league.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tether/templates/tether/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSWeb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="352">
+          <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
           <folding />
         </state>
       </provider>
