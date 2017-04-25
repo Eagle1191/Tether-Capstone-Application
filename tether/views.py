@@ -119,7 +119,7 @@ def user_login(request):
 
 
 def handler404(request):
-    response = render_to_response('tether/404.html', {}, )
+    response = render_to_response('404.html', {}, )
     response.status_code = 404
     return response
 

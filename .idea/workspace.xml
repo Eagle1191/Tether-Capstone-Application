@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d6c251c-c549-484d-8ca0-6e5d955d3fb8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tether/templates/tether/404.html" afterPath="$PROJECT_DIR$/tether/templates/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/views.py" afterPath="$PROJECT_DIR$/tether/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,22 +36,22 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tether/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <state relative-caret-position="419">
+              <caret line="121" column="38" lean-forward="false" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
               <folding>
                 <element signature="e#0#96#0" expanded="true" />
-                <marker date="1493152235336" expanded="true" signature="40062:40130" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="40170:40238" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="40279:40347" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="40387:40455" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="40495:40563" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="40603:40671" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="40711:40779" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="40819:40887" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="40927:40995" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="41035:41103" ph="UPDATE match... " />
-                <marker date="1493152235336" expanded="true" signature="41445:41481" ph="DELETE FROM " />
-                <marker date="1493152235336" expanded="true" signature="56482:56520" ph="SELECT * fro... match_data" />
+                <marker date="1493152579859" expanded="true" signature="40055:40123" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="40163:40231" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="40272:40340" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="40380:40448" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="40488:40556" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="40596:40664" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="40704:40772" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="40812:40880" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="40920:40988" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="41028:41096" ph="UPDATE match... " />
+                <marker date="1493152579859" expanded="true" signature="41438:41474" ph="DELETE FROM " />
+                <marker date="1493152579859" expanded="true" signature="56475:56513" ph="SELECT * fro... match_data" />
               </folding>
             </state>
           </provider>
@@ -78,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/404.html">
+        <entry file="file://$PROJECT_DIR$/tether/templates/404.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="638">
               <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
@@ -210,6 +210,24 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tether-Capstone-Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tether-Capstone-Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tether" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tether" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -245,15 +263,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\CSWeb\staticfiles" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\tether\templates" />
       <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\CSWeb" />
       <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\tether\static" />
       <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\CSWeb\staticfiles" />
       <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\tether\templates\tether" />
-      <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\tether\static\fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\John Krause\Django Production\Tether-Capstone-Application\CSWeb\staticfiles" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.Tether-Capstone-Application">
@@ -585,18 +603,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#96#0" expanded="true" />
-            <marker date="1493152235336" expanded="true" signature="40062:40130" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40170:40238" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40279:40347" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40387:40455" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40495:40563" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40603:40671" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40711:40779" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40819:40887" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40927:40995" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="41035:41103" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="41445:41481" ph="DELETE FROM " />
-            <marker date="1493152235336" expanded="true" signature="56482:56520" ph="SELECT * fro... match_data" />
+            <marker date="1493152579859" expanded="true" signature="40055:40123" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40163:40231" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40272:40340" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40380:40448" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40488:40556" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40596:40664" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40704:40772" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40812:40880" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40920:40988" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="41028:41096" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="41438:41474" ph="DELETE FROM " />
+            <marker date="1493152579859" expanded="true" signature="56475:56513" ph="SELECT * fro... match_data" />
           </folding>
         </state>
       </provider>
@@ -617,7 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tether/templates/tether/404.html">
+    <entry file="file://$PROJECT_DIR$/tether/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
@@ -858,7 +876,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tether/templates/tether/404.html">
+    <entry file="file://$PROJECT_DIR$/tether/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
@@ -878,22 +896,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tether/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        <state relative-caret-position="419">
+          <caret line="121" column="38" lean-forward="false" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
           <folding>
             <element signature="e#0#96#0" expanded="true" />
-            <marker date="1493152235336" expanded="true" signature="40062:40130" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40170:40238" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40279:40347" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40387:40455" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40495:40563" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40603:40671" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40711:40779" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40819:40887" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="40927:40995" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="41035:41103" ph="UPDATE match... " />
-            <marker date="1493152235336" expanded="true" signature="41445:41481" ph="DELETE FROM " />
-            <marker date="1493152235336" expanded="true" signature="56482:56520" ph="SELECT * fro... match_data" />
+            <marker date="1493152579859" expanded="true" signature="40055:40123" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40163:40231" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40272:40340" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40380:40448" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40488:40556" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40596:40664" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40704:40772" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40812:40880" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="40920:40988" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="41028:41096" ph="UPDATE match... " />
+            <marker date="1493152579859" expanded="true" signature="41438:41474" ph="DELETE FROM " />
+            <marker date="1493152579859" expanded="true" signature="56475:56513" ph="SELECT * fro... match_data" />
           </folding>
         </state>
       </provider>
