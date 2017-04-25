@@ -7,7 +7,7 @@ header {
 }
 
 body {
-	background: #cccccc url(/tether/static/images/background.jpg) fixed;
+	background: #cccccc url(/CSWeb/static/images/background.jpg) fixed;
 } 
 
 body, a, th, td {

@@ -43,7 +43,7 @@ body {
 
 .container {
 	/*Silver color*/
-	background: #4a597e url(/tether/static/images/background.jpg) fixed;
+	background: #4a597e url(/CSWeb/static/images/background.jpg) fixed;
 }
 
 .footer-social-icons a {
