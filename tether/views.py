@@ -123,9 +123,10 @@ def user_login(request):
     return redirect('index')
 
 def handler404(request):
-    response = render_to_response('tether/templates/404.html', {}, )
-    response.status_code = 404
-    return response
+    return render(request, 'tether/404.html', {}, status=404)
+    #response = render_to_response('tether/templates/404.html', {}, )
+    #response.status_code = 404
+    #return response
 
 
 def user_logout(request):
