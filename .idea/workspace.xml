@@ -23,8 +23,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSWeb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="506">
+              <caret line="147" column="79" lean-forward="false" selection-start-line="147" selection-start-column="79" selection-end-line="147" selection-end-column="79" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -88,7 +88,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="254" />
+    <option name="x" value="160" />
+    <option name="y" value="36" />
     <option name="width" value="1646" />
     <option name="height" value="942" />
   </component>
@@ -490,7 +491,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="0" width="1646" height="942" extended-state="0" />
+    <frame x="160" y="36" width="1646" height="942" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30127388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -730,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSWeb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="506">
+          <caret line="147" column="79" lean-forward="false" selection-start-line="147" selection-start-column="79" selection-end-line="147" selection-end-column="79" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
