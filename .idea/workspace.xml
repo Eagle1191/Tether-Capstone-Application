@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d6c251c-c549-484d-8ca0-6e5d955d3fb8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tether/templates/tether/add_league.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tether/templates/tether/login.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/create.html" afterPath="$PROJECT_DIR$/tether/templates/tether/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/index.html" afterPath="$PROJECT_DIR$/tether/templates/tether/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/join_public.html" afterPath="$PROJECT_DIR$/tether/templates/tether/join_public.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/public_leagues.html" afterPath="$PROJECT_DIR$/tether/templates/tether/public_leagues.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/user_profile.html" afterPath="$PROJECT_DIR$/tether/templates/tether/user_profile.html" />
-    </list>
+    <list default="true" id="8d6c251c-c549-484d-8ca0-6e5d955d3fb8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,104 +18,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSWeb/settings.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tether/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+            <state relative-caret-position="-4356">
+              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               <folding>
-                <element signature="e#309#318#0" expanded="true" />
+                <element signature="e#0#97#0" expanded="true" />
+                <marker date="1493085091905" expanded="true" signature="40118:40186" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="40226:40294" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="40335:40403" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="40443:40511" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="40551:40619" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="40659:40727" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="40767:40835" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="40875:40943" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="40983:41051" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="41091:41159" ph="UPDATE match... " />
+                <marker date="1493085091905" expanded="true" signature="41501:41537" ph="DELETE FROM " />
+                <marker date="1493085091905" expanded="true" signature="56511:56549" ph="SELECT * fro... match_data" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="req.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/req.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_profile.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/user_profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="intro.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/intro.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-352">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2222">
-              <caret line="101" column="7" lean-forward="false" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="join_public.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/join_public.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="public_leagues.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/public_leagues.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="44" column="62" lean-forward="false" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="matches.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/matches.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3608">
-              <caret line="167" column="38" lean-forward="false" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -698,28 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tether/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#97#0" expanded="true" />
-            <marker date="1493085091905" expanded="true" signature="40118:40186" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="40226:40294" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="40335:40403" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="40443:40511" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="40551:40619" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="40659:40727" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="40767:40835" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="40875:40943" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="40983:41051" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="41091:41159" ph="UPDATE match... " />
-            <marker date="1493085091905" expanded="true" signature="41501:41537" ph="DELETE FROM " />
-            <marker date="1493085091905" expanded="true" signature="56511:56549" ph="SELECT * fro... match_data" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tether/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -782,16 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSWeb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-          <folding>
-            <element signature="e#309#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tether/templates/tether/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -812,14 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tether/templates/tether/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -856,6 +730,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tether/templates/tether/user_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tether/templates/tether/req.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -864,11 +746,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tether/templates/tether/user_profile.html">
+    <entry file="file://$PROJECT_DIR$/tether/templates/tether/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+        <state relative-caret-position="836">
+          <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSWeb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="e#309#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tether/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4356">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#97#0" expanded="true" />
+            <marker date="1493085091905" expanded="true" signature="40118:40186" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="40226:40294" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="40335:40403" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="40443:40511" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="40551:40619" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="40659:40727" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="40767:40835" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="40875:40943" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="40983:41051" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="41091:41159" ph="UPDATE match... " />
+            <marker date="1493085091905" expanded="true" signature="41501:41537" ph="DELETE FROM " />
+            <marker date="1493085091905" expanded="true" signature="56511:56549" ph="SELECT * fro... match_data" />
+          </folding>
         </state>
       </provider>
     </entry>
