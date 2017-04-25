@@ -21,8 +21,6 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 # Joins the base directory with the template directory.
 TEMPLATE_DIR = os.path.join(BASE_DIR, '/tether/templates')
 
-STATIC_DIR = os.path.join(BASE_DIR, 'tether/static')
-
 #FIXTURE_DIRS = os.path.join(BASE_DIR, 'tether/fixtures')
 
 AUTH_PROFILE_MODULE = "tether.UserProfile"
