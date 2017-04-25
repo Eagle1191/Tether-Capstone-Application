@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 
 import os
 import os.path
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -35,9 +36,6 @@ SECRET_KEY = '_=-t68h)3x-szn5)y^h1%ld!y#f_f^$ika!$chivn3(ypuy%38'
 DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
-
-# Admins
-#ADMINS = [('John', 'Werise92@gmail.com')]
 
 # Application definition
 
@@ -100,8 +98,8 @@ DATABASES = {
     }
 }
 
-#import dj_database_url
-#DATABASES['default'] = dj_database_url.config()
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
