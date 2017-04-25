@@ -607,6 +607,9 @@ def add_league(request):  # view for users to create leagues
 def profile(request):
     if request.user.is_authenticated():
 
+        user = User.objects.get(pk=request.user.id)
+        leagues = League.objects.filter(leaguemembership__profile=user)
+
         sid = request.user.userprofile1.steam_id  # get logged in user's steam ID
 
         api = dota2api.Initialise("BFF23F667B3B31FD01663D230DF11C25")  # API Key
@@ -1241,6 +1244,7 @@ def profile(request):
                                                             'playerdata': datatable,
                                                             'playerform': playerform,
                                                             'dataform': PlayerDataForm,
+                                                            'leagues': leagues
                                                             })
 
     return render(request, 'tether/user_profile.html', {'table': table,
@@ -1248,6 +1252,7 @@ def profile(request):
                                                         'playerdata': datatable,
                                                         'playerform': playerform,
                                                         'dataform': PlayerDataForm,
+                                                        'leagues': leagues
                                                         })
 
 

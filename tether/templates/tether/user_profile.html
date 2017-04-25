@@ -82,8 +82,8 @@
 									</tr>
                                     <tr>
                                         <td class="locl"><strong>Leagues</strong></td>
-                                        {% for league in user %}
-                                            <td>{{ user.league.leaguename }}</td>
+                                        {% for league in leagues %}
+                                            <td>{{ league.league_name }}</td>
                                         {% endfor %}
                                     </tr>
                                     {% comment %}
