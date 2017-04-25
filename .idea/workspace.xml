@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d6c251c-c549-484d-8ca0-6e5d955d3fb8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSWeb/settings.py" afterPath="$PROJECT_DIR$/CSWeb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/create.html" afterPath="$PROJECT_DIR$/tether/templates/tether/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/index.html" afterPath="$PROJECT_DIR$/tether/templates/tether/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/join_public.html" afterPath="$PROJECT_DIR$/tether/templates/tether/join_public.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/public_leagues.html" afterPath="$PROJECT_DIR$/tether/templates/tether/public_leagues.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/user_profile.html" afterPath="$PROJECT_DIR$/tether/templates/tether/user_profile.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/CSWeb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -864,7 +859,7 @@
     <entry file="file://$PROJECT_DIR$/CSWeb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
