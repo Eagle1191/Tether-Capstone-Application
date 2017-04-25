@@ -37,6 +37,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
+#Admin/Email
+SERVER_EMAIL = 'django@my-domain.com'
+ADMINS = [('John', 'Werise92@gmail.com')]
+
 # Application definition
 
 INSTALLED_APPS = [
