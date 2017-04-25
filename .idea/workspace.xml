@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d6c251c-c549-484d-8ca0-6e5d955d3fb8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/user_profile.html" afterPath="$PROJECT_DIR$/tether/templates/tether/user_profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/views.py" afterPath="$PROJECT_DIR$/tether/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tether/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="1254" column="74" lean-forward="false" selection-start-line="1254" selection-start-column="74" selection-end-line="1254" selection-end-column="74" />
+            <state relative-caret-position="-13804">
+              <caret line="607" column="16" lean-forward="true" selection-start-line="607" selection-start-column="16" selection-end-line="607" selection-end-column="16" />
               <folding>
                 <element signature="e#0#96#0" expanded="true" />
                 <element signature="e#942#2117#0" expanded="false" />
@@ -56,28 +55,28 @@
                 <element signature="e#7080#22440#0" expanded="false" />
                 <element signature="e#22511#23568#0" expanded="false" />
                 <element signature="e#23734#24835#0" expanded="false" />
-                <marker date="1493155087102" expanded="true" signature="40197:40265" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="40305:40373" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="40414:40482" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="40522:40590" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="40630:40698" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="40738:40806" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="40846:40914" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="40954:41022" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="41062:41130" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="41170:41238" ph="UPDATE match... " />
-                <marker date="1493155087102" expanded="true" signature="41580:41616" ph="DELETE FROM " />
-                <marker date="1493155087102" expanded="true" signature="56617:56655" ph="SELECT * fro... match_data" />
+                <marker date="1493155565144" expanded="true" signature="40214:40282" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="40322:40390" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="40431:40499" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="40539:40607" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="40647:40715" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="40755:40823" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="40863:40931" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="40971:41039" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="41079:41147" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="41187:41255" ph="UPDATE match... " />
+                <marker date="1493155565144" expanded="true" signature="41597:41633" ph="DELETE FROM " />
+                <marker date="1493155565144" expanded="true" signature="56634:56672" ph="SELECT * fro... match_data" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_profile.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user_profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tether/templates/tether/user_profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="85" column="69" lean-forward="false" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
+            <state relative-caret-position="529">
+              <caret line="90" column="87" lean-forward="true" selection-start-line="90" selection-start-column="87" selection-end-line="90" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -86,7 +85,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tether/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3311">
+            <state relative-caret-position="-3328">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -131,8 +130,8 @@
         <option value="$PROJECT_DIR$/tether/templates/tether/matches.html" />
         <option value="$PROJECT_DIR$/CSWeb/settings.py" />
         <option value="$PROJECT_DIR$/tether/templates/tether/create.html" />
-        <option value="$PROJECT_DIR$/tether/views.py" />
         <option value="$PROJECT_DIR$/tether/templates/tether/user_profile.html" />
+        <option value="$PROJECT_DIR$/tether/views.py" />
       </list>
     </option>
   </component>
@@ -607,18 +606,18 @@
             <element signature="e#7080#22440#0" expanded="false" />
             <element signature="e#22511#23568#0" expanded="false" />
             <element signature="e#23734#24835#0" expanded="false" />
-            <marker date="1493155087102" expanded="true" signature="40197:40265" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40305:40373" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40414:40482" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40522:40590" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40630:40698" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40738:40806" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40846:40914" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40954:41022" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="41062:41130" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="41170:41238" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="41580:41616" ph="DELETE FROM " />
-            <marker date="1493155087102" expanded="true" signature="56617:56655" ph="SELECT * fro... match_data" />
+            <marker date="1493155565144" expanded="true" signature="40214:40282" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40322:40390" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40431:40499" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40539:40607" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40647:40715" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40755:40823" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40863:40931" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40971:41039" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="41079:41147" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="41187:41255" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="41597:41633" ph="DELETE FROM " />
+            <marker date="1493155565144" expanded="true" signature="56634:56672" ph="SELECT * fro... match_data" />
           </folding>
         </state>
       </provider>
@@ -891,9 +890,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tether/templates/tether/user_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="90" column="87" lean-forward="true" selection-start-line="90" selection-start-column="87" selection-end-line="90" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tether/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3311">
+        <state relative-caret-position="-3328">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -901,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tether/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="1254" column="74" lean-forward="false" selection-start-line="1254" selection-start-column="74" selection-end-line="1254" selection-end-column="74" />
+        <state relative-caret-position="-13804">
+          <caret line="607" column="16" lean-forward="true" selection-start-line="607" selection-start-column="16" selection-end-line="607" selection-end-column="16" />
           <folding>
             <element signature="e#0#96#0" expanded="true" />
             <element signature="e#942#2117#0" expanded="false" />
@@ -913,27 +920,19 @@
             <element signature="e#7080#22440#0" expanded="false" />
             <element signature="e#22511#23568#0" expanded="false" />
             <element signature="e#23734#24835#0" expanded="false" />
-            <marker date="1493155087102" expanded="true" signature="40197:40265" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40305:40373" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40414:40482" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40522:40590" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40630:40698" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40738:40806" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40846:40914" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="40954:41022" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="41062:41130" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="41170:41238" ph="UPDATE match... " />
-            <marker date="1493155087102" expanded="true" signature="41580:41616" ph="DELETE FROM " />
-            <marker date="1493155087102" expanded="true" signature="56617:56655" ph="SELECT * fro... match_data" />
+            <marker date="1493155565144" expanded="true" signature="40214:40282" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40322:40390" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40431:40499" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40539:40607" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40647:40715" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40755:40823" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40863:40931" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="40971:41039" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="41079:41147" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="41187:41255" ph="UPDATE match... " />
+            <marker date="1493155565144" expanded="true" signature="41597:41633" ph="DELETE FROM " />
+            <marker date="1493155565144" expanded="true" signature="56634:56672" ph="SELECT * fro... match_data" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tether/templates/tether/user_profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="85" column="69" lean-forward="false" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>

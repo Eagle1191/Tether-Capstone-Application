@@ -605,6 +605,7 @@ def add_league(request):  # view for users to create leagues
 
 @login_required(login_url='/tether/login/')
 def profile(request):
+    leagues = {}
     if request.user.is_authenticated():
 
         user = User.objects.get(pk=request.user.id)
