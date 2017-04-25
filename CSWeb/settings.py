@@ -36,7 +36,6 @@ SECRET_KEY = '_=-t68h)3x-szn5)y^h1%ld!y#f_f^$ika!$chivn3(ypuy%38'
 DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
-#tether-app.herokuapp.com
 
 # Application definition
 
