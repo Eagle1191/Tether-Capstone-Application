@@ -1199,8 +1199,8 @@ def profile(request):
         #r.filter()
         r.get_match_players()
         r.get_all_data()
-        r.get_common_d()
-        r.get_dota_d()
+        #r.get_common_d()
+        #r.get_dota_d()
     # Removing duplicate rows:
         for row in tether.models.NewRecentMatches1.objects.all():
             if tether.models.NewRecentMatches1.objects.filter(userprofile1__steam_id=sid).count() > 1:
