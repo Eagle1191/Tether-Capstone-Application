@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d6c251c-c549-484d-8ca0-6e5d955d3fb8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/create.html" afterPath="$PROJECT_DIR$/tether/templates/tether/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tether/templates/tether/user_profile.html" afterPath="$PROJECT_DIR$/tether/templates/tether/user_profile.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +13,14 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -35,10 +43,19 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tether/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+            <state relative-caret-position="316">
+              <caret line="608" column="0" lean-forward="true" selection-start-line="608" selection-start-column="0" selection-end-line="608" selection-end-column="0" />
               <folding>
                 <element signature="e#0#96#0" expanded="true" />
+                <element signature="e#942#2117#0" expanded="false" />
+                <element signature="e#2147#3305#0" expanded="false" />
+                <element signature="e#3337#4130#0" expanded="false" />
+                <element signature="e#4162#4277#0" expanded="false" />
+                <element signature="e#4310#4354#0" expanded="false" />
+                <element signature="e#4408#7041#0" expanded="false" />
+                <element signature="e#7080#22440#0" expanded="false" />
+                <element signature="e#22511#23568#0" expanded="false" />
+                <element signature="e#23734#24835#0" expanded="false" />
                 <marker date="1493152761580" expanded="true" signature="40072:40140" ph="UPDATE match... " />
                 <marker date="1493152761580" expanded="true" signature="40180:40248" ph="UPDATE match... " />
                 <marker date="1493152761580" expanded="true" signature="40289:40357" ph="UPDATE match... " />
@@ -56,41 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/create.html">
+      <file leaf-file-name="user_profile.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tether/templates/tether/user_profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+            <state relative-caret-position="357">
+              <caret line="85" column="50" lean-forward="true" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matches.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/tether/matches.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tether/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4004">
-              <caret line="182" column="13" lean-forward="false" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/templates/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="-3302">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,11 +128,11 @@
         <option value="$PROJECT_DIR$/tether/templates/tether/index.html" />
         <option value="$PROJECT_DIR$/tether/templates/tether/join_public.html" />
         <option value="$PROJECT_DIR$/tether/templates/tether/public_leagues.html" />
-        <option value="$PROJECT_DIR$/tether/templates/tether/user_profile.html" />
         <option value="$PROJECT_DIR$/tether/templates/tether/matches.html" />
         <option value="$PROJECT_DIR$/CSWeb/settings.py" />
         <option value="$PROJECT_DIR$/tether/views.py" />
         <option value="$PROJECT_DIR$/tether/templates/tether/create.html" />
+        <option value="$PROJECT_DIR$/tether/templates/tether/user_profile.html" />
       </list>
     </option>
   </component>
@@ -552,13 +549,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25778732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -602,6 +599,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#96#0" expanded="true" />
+            <element signature="e#942#2117#0" expanded="false" />
+            <element signature="e#2147#3305#0" expanded="false" />
+            <element signature="e#3337#4130#0" expanded="false" />
+            <element signature="e#4162#4277#0" expanded="false" />
+            <element signature="e#4310#4354#0" expanded="false" />
+            <element signature="e#4408#7041#0" expanded="false" />
+            <element signature="e#7080#22440#0" expanded="false" />
+            <element signature="e#22511#23568#0" expanded="false" />
+            <element signature="e#23734#24835#0" expanded="false" />
             <marker date="1493152761580" expanded="true" signature="40072:40140" ph="UPDATE match... " />
             <marker date="1493152761580" expanded="true" signature="40180:40248" ph="UPDATE match... " />
             <marker date="1493152761580" expanded="true" signature="40289:40357" ph="UPDATE match... " />
@@ -723,20 +729,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tether/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tether/tables.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,13 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tether/templates/tether/user_profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="94" lean-forward="true" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tether/templates/tether/matches.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4004">
@@ -887,12 +879,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tether/templates/tether/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tether/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+        <state relative-caret-position="316">
+          <caret line="608" column="0" lean-forward="true" selection-start-line="608" selection-start-column="0" selection-end-line="608" selection-end-column="0" />
           <folding>
             <element signature="e#0#96#0" expanded="true" />
+            <element signature="e#942#2117#0" expanded="false" />
+            <element signature="e#2147#3305#0" expanded="false" />
+            <element signature="e#3337#4130#0" expanded="false" />
+            <element signature="e#4162#4277#0" expanded="false" />
+            <element signature="e#4310#4354#0" expanded="false" />
+            <element signature="e#4408#7041#0" expanded="false" />
+            <element signature="e#7080#22440#0" expanded="false" />
+            <element signature="e#22511#23568#0" expanded="false" />
+            <element signature="e#23734#24835#0" expanded="false" />
             <marker date="1493152761580" expanded="true" signature="40072:40140" ph="UPDATE match... " />
             <marker date="1493152761580" expanded="true" signature="40180:40248" ph="UPDATE match... " />
             <marker date="1493152761580" expanded="true" signature="40289:40357" ph="UPDATE match... " />
@@ -909,10 +918,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tether/templates/tether/create.html">
+    <entry file="file://$PROJECT_DIR$/tether/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+        <state relative-caret-position="-3302">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tether/templates/tether/user_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="85" column="50" lean-forward="true" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="73" />
           <folding />
         </state>
       </provider>
