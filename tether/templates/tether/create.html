@@ -45,7 +45,7 @@
             <a href="{% url 'logout' %}" class="btn btn-default login">Logout</a>
             <a href="{% url 'profile' %}" class="btn btn-default login">{{ request.user.username }}</a>
         {% else %}
-            <a href="{% url 'register' %}" class="btn btn-primary login" style="margin-top: 10%">Register</a>
+            <a href="{% url 'register' %}" class="btn btn-primary login navbar-form navbar-right">Register</a>
             <form id="login_form" method="post" action='/tether/login/' class="navbar-form navbar-right">
             {% csrf_token %}
                 <div class="form-group">
