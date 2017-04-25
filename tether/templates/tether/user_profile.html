@@ -84,7 +84,7 @@
                                     <tr>
                                         <td class="locl"><strong>Leagues</strong></td>
                                         <td>{% for league in leagues %}
-                                            <a href="{% url 'league' league.slug %}">{{ league.league_name }},</a>
+                                            {{ league.league_name }},
                                         {% endfor %}</td>
                                     </tr>
                                     {% comment %}
