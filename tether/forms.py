@@ -10,7 +10,7 @@ class UserForm(forms.ModelForm):
     # Keeps the password hidden while typing
     password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control input-md'}))
     username = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control input-md'}))
-    email = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control input-md'}))
+    email = forms.CharField(required=False, widget=forms.TextInput(attrs={'class': 'form-control input-md'}))
 
     class Meta:
         model = User
@@ -19,8 +19,8 @@ class UserForm(forms.ModelForm):
 
 # Additional form for more attributes to user profile.
 class UserProfileForm(forms.ModelForm):
-    region = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control input-md'}))
-    steam_id = forms.IntegerField(widget=forms.TextInput(attrs={'class': 'form-control input-md'}))
+    region = forms.CharField(required=False, widget=forms.TextInput(attrs={'class': 'form-control input-md'}))
+    steam_id = forms.IntegerField(required=False, widget=forms.TextInput(attrs={'class': 'form-control input-md'}))
 
     class Meta:
         model = UserProfile1

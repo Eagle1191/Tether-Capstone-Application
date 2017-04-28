@@ -53,7 +53,7 @@
 			<div class="row">
 				<div class="col-lg-5"><img src="{% static 'images/profile2.jpg' %}" alt="Image"></div>
 				<div class="col-lg-7">
-					<p>Feel free to go through your profile, recently played matches, and data.
+					<p>Feel free to go through your profile, recently played matches, current leagues, and data.
 					</p>
 				</div>
 			</div>
@@ -84,7 +84,7 @@
                                     <tr>
                                         <td class="locl"><strong>Leagues</strong></td>
                                         <td>{% for league in leagues %}
-                                            <a href="{% url 'public_league' league.slug %}">{{ league.league_name }}</a>
+                                            <a href="{% url 'public_league' league.slug %}" class="btn btn-success btn-md">{{ league.league_name }}</a>
                                         {% endfor %}</td>
                                     </tr>
                                     {% comment %}
