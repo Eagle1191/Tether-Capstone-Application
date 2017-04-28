@@ -74,8 +74,10 @@
 										<td>{{ user.username }}</td>
 									</tr>
 									<tr>
-										<td class="lcol"><strong>Region</strong></td>
-										<td>{{ user.userprofile1.region }}</td>
+                                        <td class="lcol"><strong>Region</strong></td>
+                                        {% if user.userprofile1.region %}
+										    <td>{{ user.userprofile1.region }}</td>
+                                        {% endif %}
 									</tr>
 									<tr>
 										<td class="lcol"><strong>Steam Id</strong></td>
